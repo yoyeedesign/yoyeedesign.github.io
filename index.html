@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>有鱼设集</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+      user-select: none;
+    }
+    #bg {
+      width: 100%;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);  /* chrome, opera */
+      -ms-filter: blur(5px);
+      -moz-filter: blur(5px);
+    }
+    .white_modal {
+      width: 30vw;
+      height: 12vw;
+      background-color: white;
+      border-radius: 20px;
+      position: absolute;
+      left: 35vw;
+      top: 20vw;
+      padding: 2vw;
+    }
+    .white_modal_font {
+      font-size: 1.2vw;
+      font-weight: bold;
+      color: rgb(99, 99, 99);
+      float: left;
+      padding-top: 2vw;
+    }
+    .white_modal_img {
+      height: 100%;
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <img src="./bg.jpg" id="bg" />
+  <div class="white_modal">
+    <div class="white_modal_font">
+      有鱼设集官网暂时维护中，<br />
+      请各位用户扫描微信公众号。
+    </div>
+    <img src="./wx_qrcode.jpg" class="white_modal_img" />
+  </div>
+</body>
+</html>
