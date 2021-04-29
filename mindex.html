@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
   <title>有鱼设集</title>
   <style>
     html, body {
@@ -20,30 +20,29 @@
       -moz-filter: blur(5px);
     }
     .white_modal {
-      width: 30vw;
-      height: 12vw;
+      width: 60vw;
+      height: 70vw;
       background-color: white;
       border-radius: 20px;
       position: absolute;
-      left: 35vw;
+      left: 15vw;
       top: 20vw;
-      padding: 2vw;
+      padding: 5vw;
+      box-shadow: 0 0 3vw 1vw #999;
     }
     .white_modal_font {
       font-size: 1.2vw;
       font-weight: bold;
       color: rgb(99, 99, 99);
-      float: left;
       padding-top: 2vw;
     }
     .white_modal_img {
-      height: 100%;
-      float: right;
+      width: 100%;
     }
   </style>
 </head>
 <body>
-  <img src="./bg.jpg" id="bg" />
+  <img src="./bg2.jpg" id="bg" />
   <div class="white_modal">
     <div class="white_modal_font">
       有鱼设集官网暂时维护中，<br />
@@ -51,12 +50,5 @@
     </div>
     <img src="./wx_qrcode.jpg" class="white_modal_img" />
   </div>
-  <script>
-    try{
-      if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-        window.location.href="mindex.html";
-      }
-    }catch(e){}
-  </script>
 </body>
 </html>
